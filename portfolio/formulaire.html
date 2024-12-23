@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <script src="controle.js" async></script>
+</head>
+<body>
+    <form action="">
+        <H1>Formulaire d'inscription utilisateur</H1>
+         <label for="Prenom">Prenom:</label><br>
+         <input type="text" id="t1" name="Prenom"><br>
+         
+         <label for="nom">Nom:</label><br>
+         <input type="text" id="t2" name="nom"><br>
+
+         <label for="Email">Email:</label><br>
+         <input type="text" id="t3" name="Email"><br>
+
+         <label for="Motdepasse">Mot de passe:</label><br>
+         <input type="password" id="t4" name="mot de passe"><br>
+
+         <label for="confirmer le mot de passe">confirmer le mot de passe:</label><br>
+         <input type="password" id="t5" name="password"><br><br>
+         <fieldset >
+         <legend>Genre:</legend>
+         <input type="radio" id="R1" name="M">Masculin
+         <input type="radio" id="R2" name="F" >Feminin<br>
+         </fieldset>
+         <label for="Pays">Pays:</label><br>
+         <select name="pays" id="s1">
+            <option value="">Sélectionnez un pays</option>
+            <option value="Tunisie">Tunisie</option>
+            <option value="France">France</option>
+         </select><br><br>
+         <input type="button" value="s'inscrire" id="btn">
+
+    </form>
+
+    
+</body>
+</html>
